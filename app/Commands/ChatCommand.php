@@ -5,7 +5,7 @@ namespace App\Commands;
 use LaravelZero\Framework\Commands\Command;
 use OpenAI\Client;
 
-class Chat extends Command
+class ChatCommand extends Command
 {
     /**
      * The signature of the command.

@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\Process;
 use LaravelZero\Framework\Commands\Command;
 use OpenAI\Client;
 
-class CommitMessage extends Command
+class CommitMessageMessage extends Command
 {
     /**
      * The signature of the command.

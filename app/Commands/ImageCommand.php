@@ -7,7 +7,7 @@ use Illuminate\Support\Str;
 use LaravelZero\Framework\Commands\Command;
 use OpenAI\Client;
 
-class Image extends Command
+class ImageCommand extends Command
 {
     /**
      * The signature of the command.
