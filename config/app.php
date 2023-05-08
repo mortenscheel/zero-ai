@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'token' => env('OPENAPI_TOKEN'),
+    'token' => env('OPENAI_TOKEN'),
     /*
     |--------------------------------------------------------------------------
     | Application Name
