@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'token' => env('OPENAI_TOKEN'),
+    'token' => getenv('OPENAI_TOKEN') ?: null,
     /*
     |--------------------------------------------------------------------------
     | Application Name
